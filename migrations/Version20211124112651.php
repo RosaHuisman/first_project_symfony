@@ -26,12 +26,12 @@ final class Version20211124112651 extends AbstractMigration
                 nom VARCHAR(255) NOT NULL, 
                 largeur integer DEFAULT NULL, 
                 hauteur integer DEFAULT NULL, 
-                en_vente TINYINT(1) NOT NULL, 
+                en_vente integer NOT NULL, 
                 prix integer DEFAULT NULL, 
                 date_realisation DATETIME DEFAULT NULL, 
                 created_at DATETIME NOT NULL, 
                 description TEXT NOT NULL, 
-                portfolio TINYINT(1) NOT NULL, 
+                portfolio integer NOT NULL, 
                 slug VARCHAR(255) NOT NULL, 
                 file VARCHAR(255) NOT NULL
                 ) 
