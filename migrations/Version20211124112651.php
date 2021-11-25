@@ -24,10 +24,10 @@ final class Version20211124112651 extends AbstractMigration
             (
                 id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
                 nom VARCHAR(255) NOT NULL, 
-                largeur integer(6, 2) DEFAULT NULL, 
-                hauteur integer(6, 2) DEFAULT NULL, 
+                largeur integer DEFAULT NULL, 
+                hauteur integer DEFAULT NULL, 
                 en_vente TINYINT(1) NOT NULL, 
-                prix integer(10, 2) DEFAULT NULL, 
+                prix integer DEFAULT NULL, 
                 date_realisation DATETIME DEFAULT NULL, 
                 created_at DATETIME NOT NULL, 
                 description TEXT NOT NULL, 
