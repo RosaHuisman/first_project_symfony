@@ -30,7 +30,7 @@ final class Version20211123161503 extends AbstractMigration
                 prenom VARCHAR(255) NOT NULL, 
                 nom VARCHAR(255) NOT NULL, 
                 telephone VARCHAR(255) NOT NULL, 
-                a_propos LONGTEXT DEFAULT NULL, 
+                a_propos TEXT DEFAULT NULL, 
                 instagram VARCHAR(255) DEFAULT NULL
                 ) 
             
