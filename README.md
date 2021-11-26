@@ -11,6 +11,7 @@ Site de test de création avec Symfony 5. Site présentant des peintures
 * Symfony CLI
 * Docker
 * Docker-compose
+* NodeJS et Yarn (ou npm)
 
 Vous pouvez vérifier les pré-requis (sauf Docker et Docker-compose) avec la commande suivante (de la CLI symfony) :
 
@@ -21,6 +22,9 @@ symfony check:requirements
 ### Lancer l'environnement de développement
 
 ```bash
+composer install
+yarn
+yarn run build
 docker-compose up -d
 symfony serve -d
 ```
